@@ -1,9 +1,15 @@
-.heading,
-.home {
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
     color: brown;
     text-align: center;
 }
 
+.home {
+    text-align: center;
+}
 
 #splash img {
     height: auto;
@@ -17,6 +23,7 @@ img {
     margin: 0 auto;
 }
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+    color: white;
+    background-color: brown;
 }
