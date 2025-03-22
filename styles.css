@@ -1,18 +1,22 @@
-.heading {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.heading,
+.home {
+    color: brown;
     text-align: center;
 }
 
-.list {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 #splash img {
     height: auto;
     width: 400px;
-    outline-color: black;
-    outline-width: 3px;
     display: block;
     margin: 0 auto;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
