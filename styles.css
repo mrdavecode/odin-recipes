@@ -28,19 +28,19 @@ body {
 }
 
 img {
+    height: auto;
+    width: 400px;
     display: block;
     margin: 0 auto;
+    padding: 10px;
+    background-color: brown;
+    border: solid black 5px;
 }
 
 h2 {
     color: white;
     background-color: brown;
-}
-
-ul {
     border: solid black 5px;
-    display: flex;
-    justify-content:space-around;
 }
 
 a {
