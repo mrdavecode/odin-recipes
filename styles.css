@@ -3,9 +3,15 @@ body {
 }
 
 .heading {
-    color: brown;
+    color: white;
     text-align: center;
-}
+    padding: 5px 10px;
+    background-color: brown;
+    margin-bottom: 30px; 
+    margin-left: 40%;
+    margin-right: 40%;
+    border: solid black 5px;
+    }
 
 .home {
     text-align: center;
@@ -16,6 +22,9 @@ body {
     width: 400px;
     display: block;
     margin: 0 auto;
+    padding: 10px;
+    background-color: brown;
+    border: solid black 5px;
 }
 
 img {
@@ -26,4 +35,22 @@ img {
 h2 {
     color: white;
     background-color: brown;
+}
+
+ul {
+    border: solid black 5px;
+    display: flex;
+    justify-content:space-around;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: darkred;
 }
